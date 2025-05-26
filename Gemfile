@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 ruby "3.3.5"
 
+gem "rspec"
 gem "bootstrap", "~> 5.2"
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
@@ -68,3 +69,4 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
